@@ -1,7 +1,7 @@
 #include "DHT.h"
 
-#define DPIN 4        //Pin to connect DHT sensor (GPIO number) D2
-#define DTYPE DHT11   // Define DHT 11 or DHT22 sensor type
+#define DPIN 4        
+#define DTYPE DHT11   
 
 DHT dht(DPIN,DTYPE);
 
